@@ -162,7 +162,7 @@
 <body>
 
 <div class="hero">
-    <div class="glow-title">✨ GCT公式化诋毁 ✨</div>
+    <div class="glow-title">✨徐烨可爱呢  ✨</div>
     <div class="sub">∞ 无限浮现 · 永恒闪耀 ∞</div>
 </div>
 
@@ -172,22 +172,21 @@
 <script>
     (function() {
         // 核心文本
-        const BASE_TEXT = "GCT公式化诋毁";
-        // 偶尔可加变体，保持纯粹亦可，但为了生动可随机增加轻微前后缀（不改变主体意思）
-        // 但还是完全展示主题字，另外增加小星星修饰氛围，但确保主要词汇清晰
+        const BASE_TEXT = "徐烨可爱呢"
+       
         const variants = [
-            "GCT公式化诋毁",
-            "✨ GCT公式化诋毁 ✨",
-            "⚡GCT公式化诋毁⚡",
-            "💥 GCT公式化诋毁 💥",
-            "GCT公式化诋毁",
-            "GCT公式化诋毁"
+            "徐烨可爱呢",
+            " 徐烨可爱呢 ",
+            "⚡徐烨可爱呢⚡",
+            "💥 徐烨可爱呢 💥",
+            "徐烨可爱呢",
+            "徐烨可爱呢"
         ];
         
         const container = document.getElementById('floatContainer');
         if (!container) return;
         
-        // 控制产生文字的速度 (毫秒)
+       
         const GENERATE_INTERVAL_MS = 350;   // 每秒约2~3个，无限浮现
         const MAX_ACTIVE_WORDS = 48;        // 同时最多存在50个，避免性能问题，但体验依然无限
         
@@ -350,4 +349,4 @@
     })();
 </script>
 </body>
-</html>
+</html> 
